@@ -59,3 +59,34 @@ nav ul {
   text-align: center;
   line-height: 1.8;
 }
+
+.icon_1 {
+  color: white;
+  z-index: 2;
+  position: absolute;
+  font-size: 2.5rem;
+  left: 47%;
+  top: 90%;
+  transform: translate(-50%, -25%);
+  transition: 0.65s ease-in-out all;
+  }
+  .icon_2 {
+    color: white;
+    z-index: 2;
+    position: absolute;
+    font-size: 2.5rem;
+    left: 53%;
+    top: 90%;
+    transform: translate(-50%, -25%);
+    transition: 0.65s ease-in-out all;
+  }
+
+  .icon_1:hover {
+    /* transform: scale(1.1); */
+    color: #00ff83;
+  }
+  .icon_2:hover {
+    /* transform: scale(1.1); */
+    color: #00ff83;
+  }
+ 

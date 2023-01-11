@@ -2,8 +2,8 @@ import * as THREE from "three";
 import "./index.css";
 import gsap from "gsap";
 import { OrbitControls } from "three/examples/jsm/controls/OrbitControls";
-
 import React from "react";
+import { FaGithub, FaLinkedin } from "react-icons/fa";
 
 function Hero() {
   // Scene
@@ -125,6 +125,12 @@ function Hero() {
         Designer, Blockchain enthusiast and Developer, based in Cape Town, SA 💻
         🌍
       </p>
+      <a href="https://github.com/lucaliebenberg" className="icon_1">
+        <FaGithub />
+      </a>
+      <a href="https://www.linkedin.com/in/luca-liebenberg" className="icon_2">
+        <FaLinkedin />
+      </a>
     </>
   );
 }
