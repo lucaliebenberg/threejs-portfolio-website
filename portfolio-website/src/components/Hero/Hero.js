@@ -110,14 +110,15 @@ function Hero() {
           href="mailto:liebenbergluca@gmail.com"
           target="_blank"
           rel="noreferrer"
+          className="nav_links"
         >
           liebenbergluca@gmail.com
         </a>
 
         <ul>
-          <li>About</li>
-          <li>Skills</li>
-          <li>Contact</li>
+          <li className="nav_links">About</li>
+          <li className="nav_links">Skills</li>
+          <li className="nav_links">Contact</li>
         </ul>
       </nav>
       <h1 class="title">Hi, I'm Luca</h1>

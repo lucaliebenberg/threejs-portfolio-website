@@ -84,9 +84,18 @@ nav ul {
   .icon_1:hover {
     /* transform: scale(1.1); */
     color: #00ff83;
+    cursor: pointer;
   }
   .icon_2:hover {
     /* transform: scale(1.1); */
     color: #00ff83;
+    cursor: pointer;
   }
  
+  .nav_links {
+    transition: 0.65s ease-in-out all;
+  }
+  .nav_links:hover {
+    color: #00ff83;
+    cursor: pointer;
+  }
