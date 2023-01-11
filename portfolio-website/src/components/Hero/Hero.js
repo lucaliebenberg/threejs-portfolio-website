@@ -125,10 +125,20 @@ function Hero() {
         Designer, Blockchain enthusiast and Developer, based in Cape Town, SA 💻
         🌍
       </p>
-      <a href="https://github.com/lucaliebenberg" className="icon_1">
+      <a
+        href="https://github.com/lucaliebenberg"
+        target="_blank"
+        rel="noreferrer"
+        className="icon_1"
+      >
         <FaGithub />
       </a>
-      <a href="https://www.linkedin.com/in/luca-liebenberg" className="icon_2">
+      <a
+        href="https://www.linkedin.com/in/luca-liebenberg"
+        target="_blank"
+        rel="noreferrer"
+        className="icon_2"
+      >
         <FaLinkedin />
       </a>
     </>
