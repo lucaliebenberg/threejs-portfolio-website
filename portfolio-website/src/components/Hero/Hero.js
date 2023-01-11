@@ -78,6 +78,7 @@ function Hero() {
   tl.fromTo(mesh.scale, { z: 0, x: 0, y: 0 }, { z: 1, x: 1, y: 1 });
   tl.fromTo("nav", { y: "-100%" }, { y: "0%" });
   tl.fromTo(".title", { opacity: 0 }, { opacity: 1 });
+  tl.fromTo(".subtitle", { opacity: 0 }, { opacity: 1 });
 
   // Mouse animation color
   let mouseDown = false;
@@ -105,13 +106,25 @@ function Hero() {
   return (
     <>
       <nav>
-        <a href="/">Sphere</a>
+        <a
+          href="mailto:liebenbergluca@gmail.com"
+          target="_blank"
+          rel="noreferrer"
+        >
+          liebenbergluca@gmail.com
+        </a>
+
         <ul>
-          <li>Explore</li>
-          <li>Create</li>
+          <li>About</li>
+          <li>Skills</li>
+          <li>Contact</li>
         </ul>
       </nav>
-      <h1 class="title">Give it a spin</h1>
+      <h1 class="title">Hi, I'm Luca</h1>
+      <p class="subtitle">
+        Designer, Blockchain enthusiast and Developer, based in Cape Town, SA 💻
+        🌍
+      </p>
     </>
   );
 }
