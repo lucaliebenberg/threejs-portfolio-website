@@ -1,12 +1,17 @@
 import React from "react";
 import "./index.css";
+import profileImage from "../../assets/favicon.jpg";
 
 function About() {
   return (
     <>
       <div className="container">
         <div className="image__container">
-          <img src="" alt="About profile" />
+          <img
+            className="image__image"
+            src={profileImage}
+            alt="About profile"
+          />
         </div>
         <div className="content_container">
           <p className="content_text">
