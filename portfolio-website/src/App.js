@@ -9,7 +9,6 @@ function App() {
     <div>
       <header>
         <Hero />
-        {/* <About /> */}
       </header>
     </div>
   );
