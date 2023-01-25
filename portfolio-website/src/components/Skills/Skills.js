@@ -10,7 +10,7 @@ import image5 from "./github-icon.png";
 import image6 from "./react-icon.png";
 import image7 from "./nextjs-icon.png";
 import image8 from "./solidity-icon.png";
-import image9 from "./ethersjs-icon.png";
+import image9 from "./etherjs-icon.png";
 
 function Skills() {
   return (
